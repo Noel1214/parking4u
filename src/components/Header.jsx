@@ -4,7 +4,7 @@ import { FiClock } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <div className="h-[2.8rem] w-[100vw] bg-teal-200 flex items-center justify-center lg:justify-between px-[8rem] text-base">
+    <div className="h-[3rem] w-[100vw] bg-teal-200 flex items-center justify-center lg:justify-between lg:px-[8rem] text-base">
       {/* information */}
       <div className="hidden gap-4 lg:flex lg:visible">
         <div className="flex gap-1 items-center">
@@ -16,12 +16,12 @@ const Header = () => {
         <p>|</p>
         <div className="flex items-center gap-1">
           <FiClock size={23} />
-          <h3>Mon - Fri 9:00 A.M - 5:00 P.M</h3>
+          <h3 className="whitespace-nowrap">Mon - Fri 9:00 A.M - 5:00 P.M</h3>
         </div>
       </div>
       {/* Social Media */}
-      <div className="flex gap-4 items-center">
-        <h3>Follow On:</h3>
+      <div className="flex gap-4 items-center scale-95 lg:scale-100">
+        <h3 className="sm:text-base whitespace-nowrap">Follow On:</h3>
         <img className="h-7 w-7"  src="https://parking4you.co.uk/_next/static/media/facebook.d0b0206c.svg" alt="facebook" />
         <p>|</p>
         <img className="h-7 w-7" src="https://parking4you.co.uk/_next/static/media/twitter-x.17923052.svg" alt="twitter" />
