@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className="h-[8rem] w-[100vw] flex items-center justify-between p-[4rem] bg-slate-400 bg-opacity-15">
+    <div className="h-[8rem] w-[100vw] flex items-center justify-between px-[5rem] py-[2rem] bg-black bg-opacity-25">
       {/* logo */}
       <div className="flex gap-4 items-center">
         <div className="h-[5.3rem] w-[5.7rem] mt-3 bg-white flex items-center justify-center rounded-full overflow-hidden p-2">
