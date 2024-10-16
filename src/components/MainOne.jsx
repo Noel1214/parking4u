@@ -1,5 +1,4 @@
 import React from "react";
-import { RiSearch2Line } from "react-icons/ri";
 import TravelDetails from "./TravelDetails";
 
 const MainOne = () => {
