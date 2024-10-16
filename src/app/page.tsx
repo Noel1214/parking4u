@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Navbar from '@/components/NavBar';
 import MainOne from '@/components/MainOne';
 import BannerOne from '@/components/BannerOne';
-import OurServices from '@/components/OurServices';
 import { RiChat1Line } from "react-icons/ri";
 
 const page = () => {
@@ -14,7 +13,6 @@ const page = () => {
         <Navbar />
         <MainOne />
         <BannerOne />
-        <OurServices />
         <div className='h-14 w-14 rounded-full flex justify-center items-center bg-slate-700 text-white fixed top-[87vh] left-[93vw] scale-90 hover:scale-110 transition-all duration-200 ease-in-out'>
           <RiChat1Line size={40} />
         </div>
