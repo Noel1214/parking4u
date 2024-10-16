@@ -14,16 +14,16 @@ const NavBar = () => {
         {/* NavBar */}
         <nav className="flex items-center">
           <ul className="flex gap-16 font-semibold text-white">
-            <li className="hover:scale-125 p-2 hover:border-b-2 transition-all duration-200 ease-in-out">
+            <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
               Home
             </li>
-            <li className="hover:scale-125 p-2 hover:border-b-2 transition-all duration-200 ease-in-out">
+            <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
               About Us
             </li>
-            <li className="hover:scale-125 p-2 hover:border-b-2 transition-all duration-200 ease-in-out">
+            <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
               Faq's
             </li>
-            <li className="hover:scale-125 p-2 hover:border-b-2 transition-all duration-200 ease-in-out">
+            <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
               Contact Us
             </li>
           </ul>
