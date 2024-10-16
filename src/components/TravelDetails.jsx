@@ -10,7 +10,7 @@ const TravelDetails = () => {
         {/* From Location  */}
         <div className="flex flex-col gap-2">
           <h1 className="text-white font-semibold text-sm">Traveling From</h1>
-          <input type="text" className="h-10 w-[25rem] outline-none rounded-md" />
+          <input type="text" className="h-10 w-[25rem] p-2 outline-none rounded-md" />
         </div>
         {/* Drop Off Date Time  */}
         <div className="flex gap-2 w-[25rem] justify-between">
@@ -45,7 +45,7 @@ const TravelDetails = () => {
         {/* Promo Code  */}
         <div className="flex flex-col gap-2">
           <h1 className="text-white font-semibold text-sm">Promo Code</h1>
-          <input type="text" className="h-10 w-[25rem] outline-none rounded-md" />
+          <input type="text" className="h-10 w-[25rem] p-2 outline-none rounded-md" />
         </div>
         {/* Submit Details  */}
         <div className="">
