@@ -2,7 +2,7 @@ import React from "react";
 
 const TravelDetails = () => {
   return (
-    <div className="h-[32rem] w-[27rem] bg-black bg-opacity-55 rounded-3xl hover:scale-105 overflow-hidden transition-all duration-300 ease-in-out">
+    <div className="h-[32rem] w-[27rem] bg-black bg-opacity-55 rounded-3xl scale-90 hover:scale-100 overflow-hidden transition-all duration-300 ease-in-out">
       <div className="h-[4rem] bg-zinc-400 flex justify-center items-center bg-opacity-30">
         <h1 className="font-semibold text-3xl text-white">GET A QUOTE</h1>
       </div>
