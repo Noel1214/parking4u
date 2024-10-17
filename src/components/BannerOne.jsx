@@ -11,7 +11,7 @@ const BannerOne = () => {
           COMFORTABLE AND EFFICIENT PARKING
         </h4>
         <h4 className="font-semiboldbold text-white text-2xl lg:text-4xl">
-          THE <span className="text-yellow-500">MODERN</span> WAY FOR CONVENIENT <span className="text-yellow-500">PARKING</span>
+          THE <span className="text-yellow-500">MODERN</span> WAY FOR <span className="hidden lg:inline">CONVENIENT</span> <span className="text-yellow-500">PARKING</span>
         </h4>
       </div>
     </div>
