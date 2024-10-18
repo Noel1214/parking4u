@@ -2,7 +2,7 @@ import React from "react";
 
 const BannerOne = () => {
   return (
-    <div className="h-auto w-[100vw] flex flex-col items-center px-2 bg-black bg-opacity-55 overflow-hidden">
+    <div className="h-auto w-[100vw] flex flex-col items-center px-2 bg-black bg-opacity-65 overflow-hidden">
       <div className="h-[14rem] lg:h-[17rem] flex flex-col justify-center text-center  gap-4">
         <h1 className="font-bold text-white text-3xl lg:text-6xl">
           YOUR <span className="text-yellow-500">ONE</span> STOP <span className="text-yellow-500">SOLUTION</span>
