@@ -4,6 +4,7 @@ import Navbar from '@/components/NavBar';
 import MainOne from '@/components/MainOne';
 import BannerOne from '@/components/BannerOne';
 import InfoCard from '@/components/InfoCard';
+import OurServices from '@/components/OurServices';
 
 const page = () => {
   return (
