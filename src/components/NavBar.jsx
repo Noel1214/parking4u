@@ -1,39 +1,44 @@
 import React from "react";
 import SmallScreenNavBar from "./SmallScreenNavBar";
+import { IoMailOutline } from "react-icons/io5";
+import { MdPhoneInTalk } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaTwitter } from "react-icons/fa";
 
 const NavBar = () => {
   return (
     <>
-      <div className="hidden lg:visible h-[8rem] w-[100vw] border-b-2 border-zinc-800 lg:flex items-center justify-between px-[5rem] py-[2rem] bg-black bg-opacity-25">
-        {/* logo */}
-        <div className="flex gap-4 items-center">
-          <div className="h-[5.3rem] w-[5.7rem] mt-3 bg-white flex items-center justify-center rounded-full overflow-hidden p-2">
-            <img className="h-[5.3rem] w-auto" src="/logo2.avif" alt="Logo" />
+      <div>
+        <div className="bg-black bg-opacity-25 flex justify-center gap-[23rem]">
+          <div className="flex flex-col mt-5 mb-4">
+            <div className="h-[4.8rem] w-[4.8rem] rounded-full overflow-hidden">
+              <img className="h-auto w-auto " src="/logo2.avif" alt="Logo" />
+            </div>
+            <h1 className="text-white">ParkMate</h1>
           </div>
-          <h1 className="text-white font-bold text-2xl">ParkMate</h1>
-        </div>
-        <div className="flex gap-7">
-          {/* NavBar */}
-          <nav className="flex items-center">
-            <ul className="flex gap-16 font-semibold text-white">
-              <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
-                Home
-              </li>
-              <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
-                About Us
-              </li>
-              <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
-                Faq's
-              </li>
-              <li className="text-lg hover:scale-125 p-2 hover:underline hover:underline-offset-[0.5rem] transition-all duration-200 ease-in-out">
-                Contact Us
-              </li>
+          <nav>
+            <ul className="text-white text-lg flex gap-14 items-center h-full">
+              <li className="hover:scale-125 hover:underline hover:underline-offset-[0.5rem] transition-all duration-300 ease-in-out">Home</li>
+              <li className="hover:scale-125 hover:underline hover:underline-offset-[0.5rem] transition-all duration-300 ease-in-out">About</li>
+              <li className="hover:scale-125 hover:underline hover:underline-offset-[0.5rem] transition-all duration-300 ease-in-out">Contact</li>
+              <li className="hover:scale-125 hover:underline hover:underline-offset-[0.5rem] transition-all duration-300 ease-in-out">Faq's</li>
             </ul>
           </nav>
+          <div>
+            <div className="flex h-full items-center gap-5 -translate-x-[1rem] -translate-y-2 text-white">
+              <div className="hover:scale-125 transition-all ease-in-out duration-300">
+                <FaFacebook size={22} />
+              </div>
+              <div className="hover:scale-125 transition-all ease-in-out duration-300">
+                <AiFillInstagram size={23} />
+              </div>
+              <div className="hover:scale-125 transition-all ease-in-out duration-300">
+                <FaTwitter size={23} />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="visible lg:hidden">
-        <SmallScreenNavBar />
       </div>
     </>
   );
