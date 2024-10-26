@@ -15,6 +15,7 @@ const page = () => {
         <MainOne />
         <BannerOne />
         {/* <PopUpNavBar /> */}
+        <OurServices />
         {/* <div className='h-12 w-12 rounded-full flex justify-center items-center bg-slate-700 text-white fixed top-[87vh] left-[86vw] scale-90 hover:scale-110 transition-all duration-200 ease-in-out'>
           <RiChat1Line size={30} />
         </div> */}
