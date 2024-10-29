@@ -3,7 +3,7 @@ import TravelDetails from "./TravelDetails";
 
 const MainOne = () => {
   return (
-    <div className="flex justify-center">
+    <div className="-translate-x-2 flex justify-center">
       <div className="h-auto lg:h-[35rem] w-[100vw] lg:w-[90vw] flex flex-col lg:flex-row justify-center lg:justify-evenly items-center gap-12 bg-black bg-opacity-55 lg:rounded-3xl pt-16 pb-10 lg:pb-9">
         {/* height of TravaelDetails is controlling the height of div  */}
         <div className="lg:pt-0">
