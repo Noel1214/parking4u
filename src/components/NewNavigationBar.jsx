@@ -9,8 +9,11 @@ import { FaTwitter } from "react-icons/fa";
 const NewNavigationBar = () => {
   return (
     <>
-      <div>
-        <div className="bg-black bg-opacity-25 flex justify-center gap-[23rem]">
+    <div className="visible lg:hidden">
+        <SmallScreenNavBar />
+    </div>
+      <div className="">
+        <div className="bg-black bg-opacity-25 hidden lg:flex justify-center gap-[28vw]">
           <div className="flex flex-col mt-5 mb-4">
             <div className="h-[4.8rem] w-[4.8rem] rounded-full overflow-hidden">
               <img className="h-auto w-auto " src="/logo2.avif" alt="Logo" />
